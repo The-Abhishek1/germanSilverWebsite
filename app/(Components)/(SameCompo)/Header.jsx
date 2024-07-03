@@ -11,8 +11,8 @@ import secondImage from "@public/img7.webp";
 //Main Function
 function Header() {
   return (
-    <div className="w-full flex flex-col gap-2 p-10 ">
-      <div className="xl:gap-5 w-[100%] p-5 px-8 justify-between flex flex-row  items-center rounded-sm">
+    <div className="w-full flex flex-col gap-2 p-10 mmd:px-5 ">
+      <div className="xl:gap-5 w-[100%] p-5 px-8 mmd:px-4 justify-between flex flex-row  items-center rounded-sm">
         <div className="flex items-center gap-2">
           <Image
             src={logo}
