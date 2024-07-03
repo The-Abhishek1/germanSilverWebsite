@@ -19,7 +19,7 @@ function Header() {
             className="h-[50px] mmd:h-[35px] mmd:w-[35px] cursor-pointer w-[50px] rounded-full object-center"
             alt="Logo Image"
           />
-          <div className="flex gap-1 font-bold msmm:hidden">
+          <div className="flex gap-1 font-bold">
             <h1 className="text-red-600">Ablaze</h1>
             <p>Nova</p>
           </div>
@@ -42,13 +42,13 @@ function Header() {
           </p>
         </div>
         <div className="flex flex-row cursor-pointer gap-3 items-center">
-          <div className="p-[7px] px-[10px] bg-white rounded-full">
+          <div>
             <PersonAddAlt1Icon sx={{ fontSize: "large" }} />
           </div>
-          <div className="p-[7px]  px-[10px] bg-white rounded-full">
+          <div>
             <SearchIcon sx={{ fontSize: "large" }} />
           </div>
-          <div className="p-[7px]  px-[10px] bg-white rounded-full">
+          <div>
             <AddShoppingCartIcon sx={{ fontSize: "large" }} />
           </div>
           <div className="xl:hidden">
