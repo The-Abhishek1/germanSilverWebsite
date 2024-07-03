@@ -1,10 +1,10 @@
+import Final from "@app/(Components)/(AdminCompo)/Final";
 import React from "react";
-import ItemsForm from "../(Components)/(AdminCompo)/ItemsForm";
 
 export default function page() {
   return (
     <div>
-      <ItemsForm />
+      <Final />
     </div>
   );
 }
