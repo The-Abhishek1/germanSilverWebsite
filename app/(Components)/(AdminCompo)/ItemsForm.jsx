@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { db, storage, auth } from "@/app/(Firebase)/config";
+import { db, storage, auth } from "@app/(Firebase)/config";
 import { getStorage, ref, getDownloadURL, uploadBytes } from "firebase/storage";
 import { FormEvent } from "react";
 import { addDoc, collection } from "firebase/firestore";
