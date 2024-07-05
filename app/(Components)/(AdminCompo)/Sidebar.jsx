@@ -18,7 +18,11 @@ function Sidebar() {
     <div className="w-[170px] p-3 bg-lime-50">
       <div className="relative flex flex-col gap-5  h-auto">
         <div className="flex items-center gap-1">
-          <Image src={logo} className="h-[40px] w-[40px] rounded-full" />
+          <Image
+            alt="Logo Image"
+            src={logo}
+            className="h-[40px] w-[40px] rounded-full"
+          />
           <div className="flex gap-1 font-bold">
             <h1 className="text-red-600">Ablaze</h1>
             <p>Nova</p>
