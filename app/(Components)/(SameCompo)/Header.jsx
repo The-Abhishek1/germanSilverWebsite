@@ -9,7 +9,7 @@ import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
 import firstImage from "@public/img5.jpg";
 import secondImage from "@public/img7.webp";
-import Link from "node_modules/next/link";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 //Main Function
 function Header() {
