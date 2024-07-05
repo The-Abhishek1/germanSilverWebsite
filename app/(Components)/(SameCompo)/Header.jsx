@@ -79,7 +79,7 @@ function Header() {
           >
             <PersonAddAlt1Icon
               sx={{ fontSize: 20 }}
-              className="smmm:text-[27px]"
+              className="smmm:text-[27px] msmmm:text-[25px]"
             />
           </div>
           <div className="relative flex items-center">
@@ -87,11 +87,12 @@ function Header() {
               type="text"
               name="search"
               id=""
-              className="msm:w-[80px] pr-8 xxl:w-[100px] bg-slate-50 border-orange-400 border-[1px] p-[2px] px-4 rounded-full"
+              placeholder="Search"
+              className="msm:w-[80px] text-[12px] msmmm:w-[50px] pr-8 xxl:w-[100px] bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
             />
             <SearchIcon
               sx={{ fontSize: 20, color: "gray" }}
-              className="smmm:text-[27px] absolute right-[5px]"
+              className="msmmm:text-[20px] absolute right-[5px]"
             />
           </div>
           <div>
