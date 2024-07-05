@@ -72,7 +72,11 @@ function Header() {
           </Link>
         </div>
         <div className="flex flex-row smmm:gap-6 cursor-pointer gap-3  items-center">
-          <div>
+          <div
+            onClick={() => {
+              router.push("signup");
+            }}
+          >
             <PersonAddAlt1Icon
               sx={{ fontSize: 20 }}
               className="smmm:text-[27px]"
