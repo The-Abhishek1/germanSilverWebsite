@@ -9,7 +9,7 @@ function FestivalImage() {
       <Image
         src={festival}
         alt="Festival"
-        className="max-h-[500px] mmd:max-h-[300px]"
+        className="max-h-[400px] mmd:max-h-[300px]"
       />
     </div>
   );

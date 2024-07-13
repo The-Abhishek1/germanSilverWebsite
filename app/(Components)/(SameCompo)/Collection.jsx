@@ -21,20 +21,32 @@ function Collection() {
       {/* First Row */}
       <div className="grid grid-flow-col grid-cols-6 gap-3  mex:grid-flow-row mex:grid-cols-2">
         <div className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2">
-          <Image src={i7} alt="gifts under 200" className="h-[300px]" />
+          <Image
+            src={i7}
+            alt="gifts under 200"
+            className="h-[300px] msmm:h-[150px]"
+          />
           <h3 className="absolute font-bold text-white xl:text-[20px] msmm:text-[15px] p-4">
             Gifts Under 200
           </h3>
         </div>
         <div className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2">
-          <Image src={i2} alt="gifts under 500" className="h-[300px]" />
+          <Image
+            src={i2}
+            alt="gifts under 500"
+            className="h-[300px] msmm:h-[150px]"
+          />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Gifts Under 500
           </h3>
         </div>
 
         <div className="relative flex items-end justify-start border-[1px] p-2 col-span-2">
-          <Image src={i3} alt="All Products" className="h-[300px]" />
+          <Image
+            src={i3}
+            alt="All Products"
+            className="msmm:h-[200px] h-[300px]"
+          />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             All Products
           </h3>
@@ -54,7 +66,11 @@ function Collection() {
           </h3>
         </div>
         <div className="relative flex items-end justify-start border-[1px] p-2">
-          <Image src={i5} alt="Pooja Utilities" className="h-[200px]" />
+          <Image
+            src={i5}
+            alt="Pooja Utilities"
+            className="h-[200px] msmm:h-[150px]"
+          />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Pooja Utilities
           </h3>
