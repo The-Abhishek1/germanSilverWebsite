@@ -13,6 +13,7 @@ module.exports = {
       mxl: { max: "1279px" },
 
       mlg: { max: "1023px" },
+      mex: { max: "900px" },
 
       mmd: { max: "767px" },
 
@@ -28,7 +29,7 @@ module.exports = {
       sm: { min: "640px" },
 
       md: { min: "768px" },
-
+      smex: { min: "901px" },
       lg: { min: "1024px" },
 
       xl: { min: "1280px" },

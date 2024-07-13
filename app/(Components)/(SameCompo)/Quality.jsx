@@ -8,12 +8,12 @@ import quality from "@public/quality.png";
 //Main Function
 function Quality() {
   return (
-    <div className="px-6 pb-6 mmd:gap-6 flex md:gap-10 flex-wrap items-center justify-center">
+    <div className="px-6 pb-10 mmd:gap-6 flex md:gap-10 flex-wrap items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <Image
           src={india}
           className="h-[100px] w-[100px] msmm:h-[60px] msmm:w-[60px]"
-          alt="Logo Image"
+          alt="India Map"
         />
         <h3 className="uppercase msmm:text-[11px] text-[13px] font-bold">
           Made in India
@@ -23,7 +23,7 @@ function Quality() {
         <Image
           src={quality}
           className="h-[100px] msmm:h-[60px] msmm:w-[60px] w-[100px]"
-          alt="Logo Image"
+          alt="Quality"
         />
         <h3 className="uppercase msmm:text-[11px] text-[13px] font-bold">
           Premium Quality
@@ -33,7 +33,7 @@ function Quality() {
         <Image
           src={delivery}
           className="h-[100px] w-[100px] msmm:h-[60px] msmm:w-[60px]"
-          alt="Logo Image"
+          alt="Delivery"
         />
         <h3 className="uppercase msmm:text-[11px] text-[13px] font-bold">
           fast shipping
@@ -43,7 +43,7 @@ function Quality() {
         <Image
           src={help}
           className="h-[100px] w-[100px] msmm:h-[60px] msmm:w-[60px]"
-          alt="Logo Image"
+          alt="Customer Support"
         />
         <h3 className="uppercase msmm:text-[11px] text-[13px] font-bold">
           24 x 7 Help
