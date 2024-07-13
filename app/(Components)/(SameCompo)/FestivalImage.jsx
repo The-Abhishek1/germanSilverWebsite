@@ -6,7 +6,11 @@ import festival from "@public/festival.jpg";
 function FestivalImage() {
   return (
     <div>
-      <Image src={festival} alt="Festival" className="max-h-[700px]" />
+      <Image
+        src={festival}
+        alt="Festival"
+        className="max-h-[500px] mmd:max-h-[300px]"
+      />
     </div>
   );
 }
