@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Header from "./(Components)/(SameCompo)/Header";
+import Merged from "./(Components)/(SameCompo)/Merged";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Merged />
     </div>
   );
 }
