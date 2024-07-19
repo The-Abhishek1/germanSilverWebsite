@@ -8,7 +8,7 @@ import quality from "@public/quality.png";
 //Main Function
 function Quality() {
   return (
-    <div className="px-6 pb-10 mmd:gap-6 flex md:gap-20 flex-wrap items-center justify-center">
+    <div className="px-6 py-10 mmd:gap-6 flex md:gap-20 flex-wrap items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <Image
           src={india}

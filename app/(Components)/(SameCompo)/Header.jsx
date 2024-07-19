@@ -7,8 +7,7 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import logo from "@public/a1.jpg";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
-import firstImage from "@public/img5.jpg";
-import secondImage from "@public/img7.webp";
+
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 //Main Function
@@ -17,7 +16,7 @@ function Header() {
 
   const router = useRouter();
   return (
-    <div className="w-full relative flex flex-col gap-2 p-10 mmd:px-5 ">
+    <div className="w-full relative flex flex-col gap-2 p-10 px-5 ">
       <div className="xl:gap-5 relative w-[100%] p-5 px-8 mmd:px-0 justify-between flex flex-row  items-center rounded-sm">
         <div className="flex items-center gap-2">
           <Image
@@ -145,24 +144,12 @@ function Header() {
               >
                 Our Policies
               </Link>
-              <Link href="customer-help-center" className=" p-2 inline ">
+              <Link href="customer-help-center" className=" p-2 inline  ">
                 Customer Help Center
               </Link>
             </div>
           ) : null}
         </div>
-      </div>
-      <div className="flex gap-5 justify-around w-full">
-        <Image
-          src={firstImage}
-          alt="Home Page Image"
-          className="w-[50%] xl:max-h[550px] mxl:hidden"
-        />
-        <Image
-          src={secondImage}
-          alt="Home Page Image"
-          className="w-[50%] xl:max-h[550px] mxl:w-[100%] mxl:max-h-[550px]"
-        />
       </div>
     </div>
   );
