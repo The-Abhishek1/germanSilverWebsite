@@ -17,7 +17,7 @@ function Header() {
   const router = useRouter();
   return (
     <div className="w-full h-[80px] flex items-center justify-center flex-col">
-      <div className="xl:gap-5 bg-slate-100 z-10 top-[6px] fixed w-[100%] msmmm:px-0 px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
+      <div className="xl:gap-5 bg-slate-100 z-10 top-[6px] fixed w-[100%] msmmm:px-1 px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
         <div className="flex items-center gap-2">
           <Image
             src={logo}
