@@ -17,7 +17,10 @@ function Header() {
   const router = useRouter();
   return (
     <div className="w-full h-[80px] flex items-center justify-center flex-col">
-      <div className="xl:gap-5 bg-slate-100 z-10 top-[6px] fixed w-[100%] msmmm:px-1 px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
+      <div className="xl:gap-5 z-10 top-[6px] fixed w-[100%] msmmm:px-1 px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
+        <div className=" w-full h-full overflow-hidden absolute left-0 -z-10">
+          <div className="blur-3xl bg-slate-300 w-full h-full"></div>
+        </div>
         <div className="flex items-center gap-2">
           <Image
             src={logo}
@@ -30,7 +33,7 @@ function Header() {
           </div>
         </div>
         <div className="mxl:hidden text-gray-500 flex flex-row items-center gap-5">
-          <Link href={"home"} className="cursor-pointer text-[13px] font-bold">
+          <Link href={"/"} className="cursor-pointer text-[13px] font-bold">
             Home
           </Link>
           <Link
@@ -70,13 +73,13 @@ function Header() {
             Customer Help Center
           </Link>
         </div>
-        <div className="flex flex-row smmm:gap-6 cursor-pointer gap-3  items-center">
+        <div className="flex flex-row smmm:gap-4 cursor-pointer gap-3  items-center">
           <div>
             {auth?.currentuser == null ? (
               <img
                 src={auth?.currentUser?.photoURL}
                 alt="Profile"
-                className="rounded-[30px] cursor-pointer sm:h-[35px] sm:w-[35px]"
+                className="rounded-[30px] cursor-pointer h-[35px] w-[35px]"
               />
             ) : (
               <div
@@ -98,7 +101,7 @@ function Header() {
               name="search"
               id=""
               placeholder="Search"
-              className="msm:w-[80px] text-[12px] msmmm:w-[50px] pr-8 xxl:w-[100px] bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
+              className="msm:w-[80px] text-[12px] msmmm:w-[50px] pr-8 xxl:w-[100px] outline-none bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
             />
             <SearchIcon
               sx={{ fontSize: 20, color: "gray" }}

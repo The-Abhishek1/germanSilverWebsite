@@ -24,7 +24,7 @@ function Collection() {
           <Image
             src={i7}
             alt="gifts under 200"
-            className="h-[300px] msmm:h-[150px] transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[300px] msmm:h-[150px] transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px] msmm:text-[15px] p-4">
             Gifts Under 200
@@ -34,7 +34,7 @@ function Collection() {
           <Image
             src={i2}
             alt="gifts under 500"
-            className="h-[300px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[300px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Gifts Under 500
@@ -45,7 +45,7 @@ function Collection() {
           <Image
             src={i3}
             alt="All Products"
-            className="msmm:h-[200px] h-[300px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="msmm:h-[200px] h-[300px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             All Products
@@ -59,7 +59,7 @@ function Collection() {
           <Image
             src={i4}
             alt="999 Silver Frames"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             999 Silver Frames
@@ -69,7 +69,7 @@ function Collection() {
           <Image
             src={i5}
             alt="Pooja Utilities"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Pooja Utilities
@@ -79,7 +79,7 @@ function Collection() {
           <Image
             src={i6}
             alt="Home Decor"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Home Decor
@@ -89,7 +89,7 @@ function Collection() {
           <Image
             src={i7}
             alt="German Silver Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             German Silver Gifts
@@ -103,7 +103,7 @@ function Collection() {
           <Image
             src={i8}
             alt="Rerturn Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Return Gifts
@@ -113,7 +113,7 @@ function Collection() {
           <Image
             src={i9}
             alt="Brass Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Brass Gifts
@@ -123,7 +123,7 @@ function Collection() {
           <Image
             src={i1}
             alt="Wedding Trays"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Wedding Trays
@@ -133,7 +133,7 @@ function Collection() {
           <Image
             src={i2}
             alt="Gift Sets"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Gift Sets
@@ -146,7 +146,7 @@ function Collection() {
           <Image
             src={i10}
             alt="Combos"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Combos
@@ -156,7 +156,7 @@ function Collection() {
           <Image
             src={i11}
             alt="New Arrivals Today"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold  xl:text-[20px]  msmm:text-[15px]  p-4">
             New Arrivals Today
@@ -166,7 +166,7 @@ function Collection() {
           <Image
             src={i12}
             alt="Diwali Collection"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Diwali Collection
@@ -176,7 +176,7 @@ function Collection() {
           <Image
             src={i13}
             alt="Garlands"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-200 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
+            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Garlands
