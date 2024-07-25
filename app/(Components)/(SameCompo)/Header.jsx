@@ -5,6 +5,7 @@ import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
 import SearchIcon from "@mui/icons-material/Search";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import logo from "@public/a1.jpg";
+import profilePic from "@public/profilepic.jpg";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
 import { auth } from "@app/(Firebase)/config";
@@ -77,7 +78,11 @@ function Header() {
           <div>
             {auth?.currentUser != null ? (
               <img
-                src={auth?.currentUser?.photoURL}
+                src={
+                  auth?.currentUser?.photoURL == null
+                    ? profilePic
+                    : auth?.currentUser?.photoURL
+                }
                 alt="Profile"
                 className="rounded-[30px] cursor-pointer h-[35px] w-[35px]"
               />
