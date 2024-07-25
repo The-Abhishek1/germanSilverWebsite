@@ -7,7 +7,7 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import logo from "@public/a1.jpg";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
-
+import { auth } from "@app/(Firebase)/config";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 //Main Function
@@ -15,9 +15,9 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   const router = useRouter();
-  return (
-    <div className="w-full relative flex flex-col gap-2 p-10 px-5 ">
-      <div className="xl:gap-5 relative w-[100%] p-5 px-8 mmd:px-0 justify-between flex flex-row  items-center rounded-sm">
+  return ~(
+    <div className="w-full h-[80px] flex items-center justify-center flex-col">
+      <div className="xl:gap-5 bg-slate-100 z-10 fixed w-[100%] px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
         <div className="flex items-center gap-2">
           <Image
             src={logo}
@@ -81,6 +81,7 @@ function Header() {
               className="smmm:text-[27px] msmmm:text-[25px]"
             />
           </div>
+
           <div className="relative flex items-center">
             <input
               type="text"
