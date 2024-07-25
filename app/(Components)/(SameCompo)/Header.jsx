@@ -75,7 +75,7 @@ function Header() {
         </div>
         <div className="flex flex-row smmm:gap-4 cursor-pointer gap-3  items-center">
           <div>
-            {auth?.currentuser == null ? (
+            {auth?.currentUser != null ? (
               <img
                 src={auth?.currentUser?.photoURL}
                 alt="Profile"
