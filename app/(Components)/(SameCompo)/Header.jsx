@@ -17,7 +17,7 @@ function Header() {
   const router = useRouter();
   return (
     <div className="w-full h-[80px] flex items-center justify-center flex-col">
-      <div className="xl:gap-5 z-10 top-[6px] fixed w-[100%] msmmm:px-1 px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
+      <div className="xl:gap-5 z-10 top-[6px] fixed w-[100%] msmmm:px-[6px] px-8 h-[55px] md:h-[70px] mmd:px-8 justify-between flex flex-row  items-center">
         <div className=" w-full h-full overflow-hidden absolute left-0 -z-10">
           <div className="blur-3xl bg-slate-300 w-full h-full"></div>
         </div>
