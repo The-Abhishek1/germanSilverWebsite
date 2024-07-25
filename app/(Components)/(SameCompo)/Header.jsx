@@ -71,15 +71,25 @@ function Header() {
           </Link>
         </div>
         <div className="flex flex-row smmm:gap-6 cursor-pointer gap-3  items-center">
-          <div
-            onClick={() => {
-              router.push("signup");
-            }}
-          >
-            <PersonAddAlt1Icon
-              sx={{ fontSize: 20 }}
-              className="smmm:text-[27px] msmmm:text-[25px]"
-            />
+          <div>
+            {auth?.currentuser == null ? (
+              <img
+                src={auth?.currentUser?.photoURL}
+                alt="Profile"
+                className="rounded-[30px] cursor-pointer sm:h-[35px] sm:w-[35px]"
+              />
+            ) : (
+              <div
+                onClick={() => {
+                  router.push("signup");
+                }}
+              >
+                <PersonAddAlt1Icon
+                  sx={{ fontSize: 20 }}
+                  className="smmm:text-[27px] msmmm:text-[25px]"
+                />
+              </div>
+            )}
           </div>
 
           <div className="relative flex items-center">
