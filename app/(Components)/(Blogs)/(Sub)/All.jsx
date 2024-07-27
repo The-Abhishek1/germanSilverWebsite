@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { items } from "./itemsinfo";
 import { usePathname } from "next/navigation";
