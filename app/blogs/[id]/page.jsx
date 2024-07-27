@@ -1,7 +1,16 @@
+"use client";
 import React from "react";
+import { usePathname } from "next/navigation";
+import All from "@app/(Components)/(Blogs)/(Sub)/All";
 
+//main function
 function page() {
-  return <div>Blogs sub page</div>;
+  const pathname = usePathname();
+  return (
+    <>
+      <All />
+    </>
+  );
 }
 
 export default page;

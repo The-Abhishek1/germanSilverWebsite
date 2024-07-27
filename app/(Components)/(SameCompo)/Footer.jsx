@@ -116,37 +116,37 @@ export default function Footer() {
           <div className="flex flex-col gap-3 justify-center">
             <div className="flex flex-row items-center  gap-2 ">
               <FaAngleRight size={20} />
-              <Link href="collections" className="mlg:text-[13px]">
+              <Link href="/collections" className="mlg:text-[13px]">
                 Collections
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="track-order" className="mlg:text-[13px]">
+              <Link href="/track-order" className="mlg:text-[13px]">
                 Track Order
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="happy-customers" className="mlg:text-[13px]">
+              <Link href="/happy-customers" className="mlg:text-[13px]">
                 Happy Customer
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="about-us" className="mlg:text-[13px]">
+              <Link href="/about-us" className="mlg:text-[13px]">
                 About Us
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="contact" className="mlg:text-[13px]">
+              <Link href="/contact" className="mlg:text-[13px]">
                 Contact Us
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="blogs" className="mlg:text-[13px]">
+              <Link href="/blogs" className="mlg:text-[13px]">
                 Blogs
               </Link>
             </div>
@@ -160,7 +160,7 @@ export default function Footer() {
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="collections/wedding-trays"
+                href="/collections/wedding-trays"
                 className="mlg:text-[13px]"
               >
                 Wedding Trays
@@ -168,14 +168,14 @@ export default function Footer() {
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="collections/brass-gifts" className="mlg:text-[13px]">
+              <Link href="/collections/brass-gifts" className="mlg:text-[13px]">
                 Brass Gifts
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="collections/poojs-utilities"
+                href="/collections/poojs-utilities"
                 className="mlg:text-[13px]"
               >
                 Poojs Utilities
@@ -183,20 +183,20 @@ export default function Footer() {
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="scollections/garlands" className="mlg:text-[13px]">
+              <Link href="/collections/garlands" className="mlg:text-[13px]">
                 Garlands
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="collections/combos" className="mlg:text-[13px]">
+              <Link href="/collections/combos" className="mlg:text-[13px]">
                 Combos
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="collections/diwali-collections"
+                href="/collections/diwali-collections"
                 className="mlg:text-[13px] cursor-pointer"
               >
                 Diwali Collection

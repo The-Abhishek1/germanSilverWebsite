@@ -38,37 +38,37 @@ function Header() {
             Home
           </Link>
           <Link
-            href={"collections"}
+            href={"/collections"}
             className="cursor-pointer text-[13px] font-bold"
           >
             Collections
           </Link>
           <Link
-            href={"track-order"}
+            href={"/track-order"}
             className="cursor-pointer text-[13px] font-bold"
           >
             Track Order
           </Link>
           <Link
-            href={"happy-customers"}
+            href={"/happy-customers"}
             className="cursor-pointer text-[13px] font-bold"
           >
             Happy Customer
           </Link>
           <div className="flex items-center cursor-pointer">
-            <Link href={"about-us"} className="text-[13px] font-bold">
+            <Link href={"/about-us"} className="text-[13px] font-bold">
               About Us
             </Link>
             <ArrowDropDownIcon />
           </div>
           <div className="flex items-center cursor-pointer">
-            <Link href={"our-policies"} className="text-[13px] font-bold">
+            <Link href={"/our-policies"} className="text-[13px] font-bold">
               Our Policies
             </Link>
             <ArrowDropDownIcon />
           </div>
           <Link
-            href={"customer-help-center"}
+            href={"/customer-help-center"}
             className="cursor-pointer text-[13px] font-bold"
           >
             Customer Help Center
@@ -94,7 +94,7 @@ function Header() {
               {auth?.currentUser == null ? (
                 <div
                   onClick={() => {
-                    router.push("signup");
+                    router.push("/signup");
                   }}
                 >
                   <PersonAddAlt1Icon
@@ -135,41 +135,41 @@ function Header() {
           </div>
           {showMenu ? (
             <div className="xl:hidden text-[13px] bg-white absolute top-20 mmd:right-0 right-9  border-[1px] p-1 flex flex-col justify-center items-center">
-              <Link href="home" className=" p-2 inline border-b-2 border-black">
+              <Link href="/" className=" p-2 inline border-b-2 border-black">
                 Home
               </Link>
 
               <Link
-                href="collections"
+                href="/collections"
                 className=" p-2 inline border-b-2 border-black"
               >
                 Collections
               </Link>
               <Link
-                href="track-order"
+                href="/track-order"
                 className=" p-2 inline border-b-2 border-black"
               >
                 Track Order
               </Link>
               <Link
-                href="happy-customers"
+                href="/happy-customers"
                 className=" p-2 inline border-b-2 border-black"
               >
                 Happy Customers
               </Link>
               <Link
-                href="about-us"
+                href="/about-us"
                 className=" p-2 inline border-b-2 border-black"
               >
                 About us
               </Link>
               <Link
-                href="our-policies"
+                href="/our-policies"
                 className=" p-2 inline border-b-2 border-black"
               >
                 Our Policies
               </Link>
-              <Link href="customer-help-center" className=" p-2 inline  ">
+              <Link href="/customer-help-center" className=" p-2 inline  ">
                 Customer Help Center
               </Link>
             </div>

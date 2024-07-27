@@ -21,6 +21,14 @@ export default function WelcomePage() {
             🎁🎉"
           </p>
           <q className="italic">#InnovationUnleashed</q>
+          <button
+            onClick={() => {
+              router.push("/blogs");
+            }}
+            className="bg-indigo-950 text-white text-[14px] py-2 px-10"
+          >
+            Check out Blogs
+          </button>
         </div>
         <div className="flex">
           <Image

@@ -18,9 +18,10 @@ import { CiHeart } from "react-icons/ci";
 import { TfiComment } from "react-icons/tfi";
 import { PiShareFatThin } from "react-icons/pi";
 import { FaHeart } from "react-icons/fa";
-
+import { useRouter } from "next/navigation";
 //Main Function
 function BlogCollection() {
+  const router = useRouter();
   const [like1, setLike1] = useState(false);
   const [like2, setLike2] = useState(false);
   const [like3, setLike3] = useState(false);
@@ -73,7 +74,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/gifts-under-200");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -111,7 +117,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/gifts-under-500");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -149,7 +160,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/all-products");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -190,7 +206,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/999-silver-frames");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -227,7 +248,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/pooja-utilities");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -264,7 +290,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/home-decor");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -301,7 +332,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/german-silver-gifts");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -342,7 +378,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/return-gifts");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -379,7 +420,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/brass-gifts");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -416,7 +462,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/wedding-trays");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -453,7 +504,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/gift-sets");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -493,7 +549,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/combos");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -530,7 +591,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/new-arrivals-today");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -567,7 +633,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/diwali-collection");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
@@ -604,7 +675,12 @@ function BlogCollection() {
               <TfiComment size={20} className="cursor-pointer" />
               <PiShareFatThin size={28} className="cursor-pointer" />
             </div>
-            <button className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm">
+            <button
+              onClick={() => {
+                router.push("blogs/garlands");
+              }}
+              className="text-[11px] border-none bg-blue-600 px-2 py-1 rounded-sm"
+            >
               Read More
             </button>
           </div>
