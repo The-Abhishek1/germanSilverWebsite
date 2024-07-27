@@ -50,7 +50,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px] msmm:text-[15px] p-4">
             Gifts Under 200
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like1 ? (
                 <FaHeart
@@ -58,7 +58,7 @@ function BlogCollection() {
                   onClick={() => {
                     setLike1(!like1);
                   }}
-                  className="cursor-pointer"
+                  className="cursor-pointer "
                   color="red"
                 />
               ) : (
@@ -93,7 +93,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Gifts Under 500
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like2 ? (
                 <FaHeart
@@ -137,7 +137,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             All Products
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-100px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like3 ? (
                 <FaHeart
@@ -180,10 +180,10 @@ function BlogCollection() {
             alt="999 Silver Frames"
             className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
+          <h3 className="absolute   font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             999 Silver Frames
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like4 ? (
                 <FaHeart
@@ -222,10 +222,10 @@ function BlogCollection() {
             alt="Pooja Utilities"
             className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
+          <h3 className="absolute  font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Pooja Utilities
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like5 ? (
                 <FaHeart
@@ -267,7 +267,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Home Decor
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like6 ? (
                 <FaHeart
@@ -309,7 +309,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             German Silver Gifts
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like7 ? (
                 <FaHeart
@@ -355,7 +355,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Return Gifts
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like8 ? (
                 <FaHeart
@@ -397,7 +397,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Brass Gifts
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like9 ? (
                 <FaHeart
@@ -439,7 +439,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Wedding Trays
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like10 ? (
                 <FaHeart
@@ -481,7 +481,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Gift Sets
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like11 ? (
                 <FaHeart
@@ -526,7 +526,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Combos
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like12 ? (
                 <FaHeart
@@ -568,7 +568,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold  xl:text-[20px]  msmm:text-[15px]  p-4">
             New Arrivals Today
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like13 ? (
                 <FaHeart
@@ -610,7 +610,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
             Diwali Collection
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like14 ? (
                 <FaHeart
@@ -652,7 +652,7 @@ function BlogCollection() {
           <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
             Garlands
           </h3>
-          <div className="absolute right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
+          <div className="absolute  msm:top-[-200px] msmm:top-[-50px] right-4 text-white flex flex-col items-center justify-center gap-2 bottom-5">
             <div className="flex items-center font-bold gap-2">
               {like15 ? (
                 <FaHeart
