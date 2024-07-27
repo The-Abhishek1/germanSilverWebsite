@@ -33,7 +33,7 @@ function Header() {
             <p>Nova</p>
           </div>
         </div>
-        <div className="mxl:hidden text-gray-500 flex flex-row items-center gap-5">
+        <div className="mxl:hidden text-indigo-900 flex flex-row items-center gap-5">
           <Link href={"/"} className="cursor-pointer text-[13px] font-bold">
             Home
           </Link>
@@ -76,28 +76,34 @@ function Header() {
         </div>
         <div className="flex flex-row smmm:gap-4 cursor-pointer gap-3  items-center">
           <div>
-            {auth?.currentUser != null ? (
-              <img
-                src={
-                  auth?.currentUser?.photoURL == null
-                    ? profilePic
-                    : auth?.currentUser?.photoURL
-                }
+            {auth?.currentUser?.photoURL == null ? (
+              <Image
+                unoptimized // for image caching, else error
+                src={profilePic}
                 alt="Profile"
-                className="rounded-[30px] cursor-pointer h-[35px] w-[35px]"
+                className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
               />
             ) : (
-              <div
-                onClick={() => {
-                  router.push("signup");
-                }}
-              >
-                <PersonAddAlt1Icon
-                  sx={{ fontSize: 20 }}
-                  className="smmm:text-[27px] msmmm:text-[25px]"
-                />
-              </div>
+              <img
+                src={auth?.currentUser?.photoURL}
+                alt="Profile"
+                className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
+              />
             )}
+            <div>
+              {auth?.currentUser == null ? (
+                <div
+                  onClick={() => {
+                    router.push("signup");
+                  }}
+                >
+                  <PersonAddAlt1Icon
+                    sx={{ fontSize: 20 }}
+                    className="smmm:text-[27px] msmmm:text-[25px]"
+                  />
+                </div>
+              ) : null}
+            </div>
           </div>
 
           <div className="relative flex items-center">
