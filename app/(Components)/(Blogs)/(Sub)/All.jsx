@@ -1,7 +1,7 @@
 import React from "react";
 import { items } from "./itemsinfo";
 import { usePathname } from "next/navigation";
-import Image from "next/Image";
+import Image from "next/image";
 
 //main function
 function All() {
