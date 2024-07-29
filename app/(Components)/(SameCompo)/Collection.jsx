@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import i1 from "@public/img1.webp";
 import i2 from "@public/img2.jpg";
@@ -13,14 +14,20 @@ import i11 from "@public/img11.webp";
 import i12 from "@public/img12.png";
 import i13 from "@public/img13.jpg";
 import Image from "next/image";
-
+import { useRouter } from "next/navigation";
 //Main Function
 function Collection() {
+  const router = useRouter();
   return (
     <div className="p-5 grid grid-flow-row gap-6">
       {/* First Row */}
       <div className="grid grid-flow-col grid-cols-6 gap-3  mex:grid-flow-row mex:grid-cols-2">
-        <div className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2">
+        <div
+          onClick={() => {
+            router.push("/collections/gifts-under-200");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2"
+        >
           <Image
             src={i7}
             alt="gifts under 200"
@@ -30,7 +37,12 @@ function Collection() {
             Gifts Under 200
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2">
+        <div
+          onClick={() => {
+            router.push("/collections/gifts-under-500");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2"
+        >
           <Image
             src={i2}
             alt="gifts under 500"
@@ -41,7 +53,12 @@ function Collection() {
           </h3>
         </div>
 
-        <div className="relative flex items-end justify-start border-[1px] p-2 col-span-2">
+        <div
+          onClick={() => {
+            router.push("/collections/all-products");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2 col-span-2"
+        >
           <Image
             src={i3}
             alt="All Products"
@@ -55,7 +72,12 @@ function Collection() {
 
       {/* //Second Row */}
       <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/999-silver-frames");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i4}
             alt="999 Silver Frames"
@@ -65,7 +87,12 @@ function Collection() {
             999 Silver Frames
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/pooja-utilities");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i5}
             alt="Pooja Utilities"
@@ -75,7 +102,12 @@ function Collection() {
             Pooja Utilities
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/home-deocor");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i6}
             alt="Home Decor"
@@ -85,7 +117,12 @@ function Collection() {
             Home Decor
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/german-silver-gifts");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i7}
             alt="German Silver Gifts"
@@ -99,7 +136,12 @@ function Collection() {
 
       {/* //Third Row */}
       <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/return-gifts");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i8}
             alt="Rerturn Gifts"
@@ -109,7 +151,12 @@ function Collection() {
             Return Gifts
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px]  msmm:text-[15px]  p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/brass=gifts");
+          }}
+          className="relative flex items-end justify-start border-[1px]  msmm:text-[15px]  p-2"
+        >
           <Image
             src={i9}
             alt="Brass Gifts"
@@ -119,7 +166,12 @@ function Collection() {
             Brass Gifts
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/wedding-trays");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i1}
             alt="Wedding Trays"
@@ -129,7 +181,12 @@ function Collection() {
             Wedding Trays
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/gift-sets");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i2}
             alt="Gift Sets"
@@ -142,7 +199,12 @@ function Collection() {
       </div>
       {/* //Fourth Row */}
       <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/combos");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i10}
             alt="Combos"
@@ -152,7 +214,12 @@ function Collection() {
             Combos
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/new-arrival-today");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i11}
             alt="New Arrivals Today"
@@ -162,7 +229,12 @@ function Collection() {
             New Arrivals Today
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/diwali-collection");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i12}
             alt="Diwali Collection"
@@ -172,7 +244,12 @@ function Collection() {
             Diwali Collection
           </h3>
         </div>
-        <div className="relative flex items-end justify-start border-[1px] p-2">
+        <div
+          onClick={() => {
+            router.push("/collections/garlands");
+          }}
+          className="relative flex items-end justify-start border-[1px] p-2"
+        >
           <Image
             src={i13}
             alt="Garlands"
