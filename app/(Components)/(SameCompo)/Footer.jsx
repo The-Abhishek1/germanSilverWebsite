@@ -26,9 +26,11 @@ export default function Footer() {
   const router = useRouter();
   return (
     <div className="flex flex-col bg-white p-6 text-black gap-10">
-      <div className="flex flex-row gap-2 justify-center items-center">
+      <div className="flex flex-row justify-center items-center">
         <Image src={logo} alt="logo" className="h-[40px] w-[40px] rounded-md" />
-        <h1 className="text-[30px] font-bold mxl:text-[20px]">Ablaze Nova</h1>
+        <h1 className="text-[30px] flex gap-1 font-bold mxl:text-[20px]">
+          <p className="text-red-600">Ablaze</p> Nova
+        </h1>
       </div>
       <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
         <div className="flex flex-row items-center gap-3">
