@@ -36,10 +36,10 @@ function IndividualItems() {
               <h3 className="text-green-400 font-bold text-[8px]">OFF</h3>
             </div>
             <div className="flex flex-col">
-              <h3 className="font-bold">{i.text}</h3>
-              <div className="flex flex-row gap-3">
-                <p>Rs.{i.DiscountProce}.00</p>
-                <p className="line-through text-red-600">
+              <h3 className="font-bold msmm:text-[13px]">{i.text}</h3>
+              <div className="flex flex-row items-center gap-3">
+                <p className="msmm:text-[13px]">Rs.{i.DiscountProce}.00</p>
+                <p className="line-through msmm:text-[12px] text-[13px] text-red-600">
                   Rs.{i.ActualPrice}.00
                 </p>
               </div>
