@@ -2,11 +2,11 @@ import React from "react";
 
 function Items() {
   return (
-    <div className="grid grid-flow-col grid-cols-2 items-center justify-center gap-5">
+    <div className="grid grid-flow-col grid-cols-2 items-center justify-center gap-5 px-5">
       <select
         name="item"
         id=""
-        className="p-2.5 border-[1px] outline-none text-[14px] pr-4 bg-white rounded-md cursor-pointer"
+        className="p-2.5 uppercase text-center border-[1px] outline-none text-[14px] pr-4 bg-white rounded-md cursor-pointer"
       >
         <option value="" disabled selected hidden>
           Select Item
@@ -30,10 +30,10 @@ function Items() {
       <select
         name="item"
         id=""
-        className="p-2.5 border-[1px] outline-none text-[14px] pr-4 bg-white rounded-md cursor-pointer"
+        className="p-2.5 uppercase text-center border-[1px] outline-none text-[14px] pr-4 bg-white rounded-md cursor-pointer"
       >
         <option value="" disabled selected hidden>
-          Sort By
+          Sort
         </option>
         <option value="Alphabeticall, A - Z">Alphabeticall, A - Z</option>
         <option value="Alphabeticall, Z - A">Alphabeticall, Z - A</option>

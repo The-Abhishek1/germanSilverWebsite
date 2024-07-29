@@ -13,7 +13,7 @@ function All() {
         .filter((item) => item.id == pathname)
         .map((item) => {
           return (
-            <>
+            <div key={item.text}>
               <div className="md:hidden p-5 flex flex-col gap-5">
                 <h1 className="text-center uppercase font-bold text-[25px] msm:text-[20px] text-indigo-950">
                   {item.text}
@@ -40,7 +40,7 @@ function All() {
                   </button>
                 </div>
               </div>
-            </>
+            </div>
           );
         })}
     </div>
