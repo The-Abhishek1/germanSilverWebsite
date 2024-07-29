@@ -74,8 +74,14 @@ function Header() {
             Customer Help Center
           </Link>
         </div>
-        <div className="flex flex-row smmm:gap-4 cursor-pointer gap-3  items-center">
-          <div>
+        <div className="flex flex-row smmm:gap-4 cursor-pointer msmmm:gap-[5px] gap-3  items-center">
+          <Image
+            unoptimized // for image caching, else error
+            src={profilePic}
+            alt="Profile"
+            className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
+          />
+          {/* <div>
             {auth?.currentUser?.photoURL == null ? (
               <Image
                 unoptimized // for image caching, else error
@@ -104,7 +110,7 @@ function Header() {
                 </div>
               ) : null}
             </div>
-          </div>
+          </div> */}
 
           <div className="relative flex items-center">
             <input
@@ -112,7 +118,7 @@ function Header() {
               name="search"
               id=""
               placeholder="Search"
-              className="msm:w-[80px] text-[12px] msmmm:w-[50px] pr-8 xxl:w-[100px] outline-none bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
+              className="msm:w-[80px] text-[12px] pr-8 xxl:w-[100px] outline-none bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
             />
             <SearchIcon
               sx={{ fontSize: 20, color: "gray" }}

@@ -1,5 +1,5 @@
-import Merged from "@app/(Components)/(CollectionsCompo)/Merged";
 import React from "react";
+import Merged from "../(Components)/(CollectionsCompo)/Main/Merged";
 
 function page() {
   return (

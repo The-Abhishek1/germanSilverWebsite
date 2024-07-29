@@ -10,6 +10,7 @@ import i6 from "@public/img6.jpg";
 import discount from "@public/super-sale.png";
 import discount1 from "@public/super-sale2.png";
 import Items from "./Items";
+import IndividualItems from "./IndividualItems";
 //Main Function
 function ItemsList() {
   return (
@@ -95,6 +96,9 @@ function ItemsList() {
       </div>
       <div>
         <Items />
+      </div>
+      <div>
+        <IndividualItems />
       </div>
     </div>
   );
