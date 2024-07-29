@@ -8,12 +8,12 @@ import { useRouter } from "next/navigation";
 function IndividualItems() {
   const router = useRouter();
   return (
-    <div className="flex  flex-row gap-4 flex-wrap p-5 msm:px-2 items-center justify-center">
+    <div className="flex  flex-row gap-4 msmmm:gap-2 flex-wrap p-5 msm:px-2 items-center justify-center">
       {item.map((i) => {
         return (
           <div
             key={i.id}
-            className="cursor-pointer msm:w-[180px] msm:h-[250px] relative flex rounded-md flex-col items-center p-3 gap-5 w-[250px] h-[300px] bg-slate-50"
+            className="cursor-pointer msm:w-[180px] msmmm:w-[160px] msmmm:h-[230px] msm:h-[250px] relative flex rounded-md flex-col items-center p-3 gap-5 msmmm:gap-3 w-[250px] h-[300px] bg-slate-50"
           >
             <div className="absolute z-[-1] w-[250px] h-[300px] msm:w-[180px] msm:h-[250px] blur-3xl bg-slate-500"></div>
             <Image
