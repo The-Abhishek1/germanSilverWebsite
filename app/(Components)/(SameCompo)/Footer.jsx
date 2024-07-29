@@ -198,7 +198,7 @@ export default function Footer() {
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="/collections/diwali-collections"
+                href="/collections/diwali-collection"
                 className="mlg:text-[13px] cursor-pointer"
               >
                 Diwali Collection
