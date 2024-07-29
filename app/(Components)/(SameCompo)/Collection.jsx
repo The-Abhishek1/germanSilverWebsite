@@ -104,7 +104,7 @@ function Collection() {
         </div>
         <div
           onClick={() => {
-            router.push("/collections/home-deocor");
+            router.push("/collections/home-decor");
           }}
           className="relative flex items-end justify-start border-[1px] p-2"
         >
@@ -153,7 +153,7 @@ function Collection() {
         </div>
         <div
           onClick={() => {
-            router.push("/collections/brass=gifts");
+            router.push("/collections/brass-gifts");
           }}
           className="relative flex items-end justify-start border-[1px]  msmm:text-[15px]  p-2"
         >
@@ -216,7 +216,7 @@ function Collection() {
         </div>
         <div
           onClick={() => {
-            router.push("/collections/new-arrival-today");
+            router.push("/collections/new-arrivals-today");
           }}
           className="relative flex items-end justify-start border-[1px] p-2"
         >
