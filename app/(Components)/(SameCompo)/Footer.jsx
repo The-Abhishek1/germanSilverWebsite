@@ -142,7 +142,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="/contact" className="mlg:text-[13px]">
+              <Link href="/contact-us" className="mlg:text-[13px]">
                 Contact Us
               </Link>
             </div>
@@ -177,10 +177,10 @@ export default function Footer() {
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="/collections/poojs-utilities"
+                href="/collections/pooja-utilities"
                 className="mlg:text-[13px]"
               >
-                Poojs Utilities
+                Pooja Utilities
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">

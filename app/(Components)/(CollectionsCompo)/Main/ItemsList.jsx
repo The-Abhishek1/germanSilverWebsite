@@ -14,7 +14,7 @@ import IndividualItems from "./IndividualItems";
 //Main Function
 function ItemsList() {
   return (
-    <div className="flex flex-col gap-5 px-5 md:py-5">
+    <div className="flex flex-col gap-5 px-5 msmmm:px-2 md:py-5">
       <div className="relative flex items-center col-span-4">
         <h1 className="absolute uppercase w-3 md:left-20 lg:left-32 font-bold text-[35px] msm:text-[30px] msmm:text-[25px] left-10 italic text-black">
           let's explore our unique products
@@ -97,9 +97,9 @@ function ItemsList() {
       <div>
         <Items />
       </div>
-      <div>
+      {/* <div>
         <IndividualItems />
-      </div>
+      </div> */}
     </div>
   );
 }
