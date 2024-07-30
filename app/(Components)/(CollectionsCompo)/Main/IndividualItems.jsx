@@ -41,6 +41,22 @@ function IndividualItems({ typeValue, sortValue }) {
                 // names must be equal
               }
             })
+            .sort((a, b) => {
+              if (sortValue == "Price, low - high") {
+                const textA = a.value; // ignore upper and lowercase
+                const textB = b.value; // ignore upper and lowercase
+
+                return textA - textB;
+              }
+            })
+            .sort((a, b) => {
+              if (sortValue == "Price, high - low") {
+                const textA = a.value; // ignore upper and lowercase
+                const textB = b.value; // ignore upper and lowercase
+
+                return textA - textB;
+              }
+            })
             .map((i) => {
               return (
                 <div
@@ -117,6 +133,22 @@ function IndividualItems({ typeValue, sortValue }) {
                 }
                 return 0;
                 // names must be equal
+              }
+            })
+            .sort((a, b) => {
+              if (sortValue == "Price, low - high") {
+                const textA = a.value; // ignore upper and lowercase
+                const textB = b.value; // ignore upper and lowercase
+
+                return textA - textB;
+              }
+            })
+            .sort((a, b) => {
+              if (sortValue == "Price, high - low") {
+                const textA = a.value; // ignore upper and lowercase
+                const textB = b.value; // ignore upper and lowercase
+
+                return textA - textB;
               }
             })
             .map((i) => {
