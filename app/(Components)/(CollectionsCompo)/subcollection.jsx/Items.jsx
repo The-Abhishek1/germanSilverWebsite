@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import IndividualItems from "./IndividualItems";
 
 function Items() {
-  const [typeValue, setTypeValue] = useState("");
+  const [typeValue, setTypeValue] = useState("All Products");
   const [sortValue, setSortValue] = useState("");
   return (
     <div>
