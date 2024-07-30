@@ -9,7 +9,7 @@ function Items() {
     <div>
       <form
         action=""
-        className="grid grid-flow-col grid-cols-2 items-center justify-center gap-5 "
+        className="grid grid-flow-col grid-cols-2 items-center justify-center gap-5 px-5"
       >
         <select
           name="item"
