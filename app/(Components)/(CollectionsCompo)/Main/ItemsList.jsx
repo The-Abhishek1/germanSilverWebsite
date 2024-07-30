@@ -7,6 +7,9 @@ import i3 from "@public/img3.jpg";
 import i4 from "@public/img4.jpg";
 import i5 from "@public/img5.jpg";
 import i6 from "@public/img6.jpg";
+import i8 from "@public/img8.jpg";
+import i10 from "@public/img10.webp";
+import i11 from "@public/img11.webp";
 import discount from "@public/super-sale.png";
 import discount1 from "@public/super-sale2.png";
 import Items from "./Items";
@@ -16,11 +19,11 @@ function ItemsList() {
   return (
     <div className="flex flex-col gap-5 px-5 msmmm:px-2 md:py-5">
       <div className="relative flex items-center col-span-4">
-        <h1 className="absolute uppercase w-3 md:left-20 lg:left-32 font-bold text-[35px] msm:text-[30px] msmm:text-[25px] left-10 italic text-black">
+        <h1 className="absolute animate-pulse uppercase w-3 md:left-20 lg:left-32 font-bold text-[35px] msm:text-[30px] msmm:text-[25px]  left-10 italic text-indigo-950">
           let's explore our unique products
         </h1>
         <Image
-          src={i1}
+          src={i8}
           alt="Front image"
           className="h-[500px] w-full msmm:h-[300px]"
         />
@@ -28,7 +31,7 @@ function ItemsList() {
           <Image
             src={discount}
             alt="Front image"
-            className="h-[150px] max-w-[300px] msmm:w-[150px] msmm:h-[120px]"
+            className="h-[150px] animate-bounce max-w-[300px] msmm:w-[150px] msmm:h-[120px]"
           />
         </div>
       </div>

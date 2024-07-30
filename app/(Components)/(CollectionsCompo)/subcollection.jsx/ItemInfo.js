@@ -34,7 +34,7 @@ export const items = [
       "Explore our extensive range of German silver items. From wedding trays to pooja utilities, discover all our beautifully crafted products in one place and find the perfect piece for any occasion.",
   },
   {
-    id: "/collections/999-silver-frames",
+    id: "/collections/silver-frames",
     image: i4,
     text: "999 Silver Products 💰✨",
     about:
