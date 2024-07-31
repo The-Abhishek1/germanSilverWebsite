@@ -16,7 +16,6 @@ function AllReviews() {
           <button
             onClick={() => {
               setStar("All");
-              console.log(star);
             }}
             className="text-white bg-indigo-950 rounded-3xl py-1 px-3 text-[13px]"
           >
@@ -25,7 +24,6 @@ function AllReviews() {
           <div
             onClick={() => {
               setStar("one");
-              console.log(star);
             }}
             className="flex flex-row items-center cursor-pointer gap-1"
           >
@@ -34,7 +32,6 @@ function AllReviews() {
           <div
             onClick={() => {
               setStar("two");
-              console.log(star);
             }}
             className="flex flex-row items-center cursor-pointer gap-1"
           >
@@ -43,7 +40,6 @@ function AllReviews() {
           <div
             onClick={() => {
               setStar("three");
-              console.log(star);
             }}
             className="flex flex-row items-center cursor-pointer gap-1"
           >
@@ -52,7 +48,6 @@ function AllReviews() {
           <div
             onClick={() => {
               setStar("four");
-              console.log(star);
             }}
             className="flex flex-row items-center cursor-pointer gap-1"
           >
@@ -61,26 +56,28 @@ function AllReviews() {
           <div
             onClick={() => {
               setStar("five");
-              console.log(star);
             }}
             className="flex flex-row items-center cursor-pointer gap-1"
           >
             <FaStar color="orange" />5
           </div>
         </div>
-        <div className="flex flex-col gap-1 md:grid grid-cols-2">
+        <div className="flex  flex-col gap-1 md:grid grid-cols-2">
           {star != "All"
             ? Reviews.filter((i) => i.stars == star).map((r) => {
                 return (
                   <div
                     key={r.id}
-                    className="flex flex-row items-center gap-5 border-[1px] p-2"
+                    className="flex relative flex-row items-center gap-5 border-[1px] p-2"
                   >
                     <Image
                       src={r.img}
                       alt="Reviews"
                       className="w-[40px] h-[40px] rounded-full"
                     />
+                    <p className="absolute right-4 top-2 text-[13px] text-gray-600">
+                      {r.day}
+                    </p>
                     <div className="flex flex-col gap-1">
                       <h3 className="font-bold">{r.name}</h3>
                       <div className=" flex flex-row gap-2">
@@ -141,13 +138,16 @@ function AllReviews() {
                 return (
                   <div
                     key={r.id}
-                    className="flex flex-row items-center gap-5 border-[1px] p-2"
+                    className="flex relative flex-row items-start gap-5 border-[1px] p-2"
                   >
                     <Image
                       src={r.img}
                       alt="Reviews"
                       className="w-[40px] h-[40px] rounded-full"
                     />
+                    <p className="absolute right-4 top-2 text-[13px] text-gray-600">
+                      {r.day}
+                    </p>
                     <div className="flex flex-col gap-1">
                       <h3 className="font-bold">{r.name}</h3>
                       <div className=" flex flex-row gap-2">

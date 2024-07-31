@@ -71,9 +71,9 @@ function IndividualItems({ typeValue, sortValue }) {
                     alt={i.text}
                     className="w-[200px] h-[150px] msm:w-[150px] msm:h-[100px] rounded-md"
                   />
-                  <div className="bg-yellow-600 h-7 w-16 msm:right-5 flex items-center justify-center rounded-sm absolute right-10 top-16">
+                  <div className="bg-yellow-600 h-7 w-[80px] msm:right-5 flex items-center justify-center rounded-sm absolute right-10 top-16">
                     <p className="text-white font-bold text-[9px]">
-                      Save {i.ActualPrice - i.DiscountProce}.00
+                      Save Rs.{i.DiscountProce}.00
                     </p>
                   </div>
                   <div className="bg-white h-10 w-10 flex flex-col items-center justify-center rounded-full absolute right-10 top-5 msm:right-5 ">
@@ -85,9 +85,7 @@ function IndividualItems({ typeValue, sortValue }) {
                   <div className="flex flex-col">
                     <h3 className="font-bold msmm:text-[13px]">{i.text}</h3>
                     <div className="flex flex-row items-center gap-3">
-                      <p className="msmm:text-[13px]">
-                        Rs.{i.DiscountProce}.00
-                      </p>
+                      <p className="msmm:text-[13px]">Rs.{i.value}.00</p>
                       <p className="line-through msmm:text-[12px] text-[13px] text-red-600">
                         Rs.{i.ActualPrice}.00
                       </p>
@@ -165,9 +163,9 @@ function IndividualItems({ typeValue, sortValue }) {
                     alt={i.text}
                     className="w-[200px] h-[150px] msm:w-[150px] msm:h-[100px] rounded-md"
                   />
-                  <div className="bg-yellow-600 h-7 w-16 msm:right-5 flex items-center justify-center rounded-sm absolute right-10 top-16">
+                  <div className="bg-yellow-600 h-7 w-[80px] msm:right-5 flex items-center justify-center rounded-sm absolute right-10 top-16">
                     <p className="text-white font-bold text-[9px]">
-                      Save {i.DiscountProce}.00
+                      Save Rs.{i.DiscountProce}.00
                     </p>
                   </div>
                   <div className="bg-white h-10 w-10 flex flex-col items-center justify-center rounded-full absolute right-10 top-5 msm:right-5 ">
@@ -179,9 +177,9 @@ function IndividualItems({ typeValue, sortValue }) {
                   <div className="flex flex-col">
                     <h3 className="font-bold msmm:text-[13px]">{i.text}</h3>
                     <div className="flex flex-row items-center gap-3">
-                      <p className="msmm:text-[13px]">Rs.{i.value}.00</p>
+                      <p className="msmm:text-[13px]">Rs.{i.value}</p>
                       <p className="line-through msmm:text-[12px] text-[13px] text-red-600">
-                        Rs.{i.ActualPrice}.00
+                        Rs.{i.ActualPrice}
                       </p>
                     </div>
                   </div>

@@ -20,6 +20,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "five",
+    day: "Today",
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "four",
+    day: "Today",
   },
   {
     id: 3,
@@ -36,6 +38,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "four",
+    day: "Yesterday",
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "five",
+    day: "Yesterday",
   },
   {
     id: 5,
@@ -52,6 +56,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "four",
+    day: "Yesterday",
   },
   {
     id: 6,
@@ -60,6 +65,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "three",
+    day: "Sunday",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "five",
+    day: "Saturday",
   },
   {
     id: 8,
@@ -76,6 +83,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "two",
+    day: "Saturday",
   },
   {
     id: 9,
@@ -84,6 +92,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "one",
+    day: "Friday",
   },
   {
     id: 10,
@@ -92,6 +101,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "three",
+    day: "Thursday",
   },
   {
     id: 11,
@@ -100,6 +110,7 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "two",
+    day: "Monday",
   },
   {
     id: 12,
@@ -108,5 +119,6 @@ export const Reviews = [
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
     stars: "one",
+    day: "Yesterday",
   },
 ];
