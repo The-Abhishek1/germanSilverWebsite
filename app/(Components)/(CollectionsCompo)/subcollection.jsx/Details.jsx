@@ -1,5 +1,7 @@
 import React from "react";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
+
+//main function
 function Details() {
   return (
     <div className="flex smex:flex-row flex-col smex:gap-10 gap-2 smex:items-center p-4 pl-2 smex:py-2">
