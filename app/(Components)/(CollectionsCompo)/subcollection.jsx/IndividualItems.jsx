@@ -167,7 +167,7 @@ function IndividualItems({ typeValue, sortValue }) {
                   />
                   <div className="bg-yellow-600 h-7 w-16 msm:right-5 flex items-center justify-center rounded-sm absolute right-10 top-16">
                     <p className="text-white font-bold text-[9px]">
-                      Save {i.ActualPrice - i.DiscountProce}.00
+                      Save {i.DiscountProce}.00
                     </p>
                   </div>
                   <div className="bg-white h-10 w-10 flex flex-col items-center justify-center rounded-full absolute right-10 top-5 msm:right-5 ">
