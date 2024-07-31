@@ -179,9 +179,7 @@ function IndividualItems({ typeValue, sortValue }) {
                   <div className="flex flex-col">
                     <h3 className="font-bold msmm:text-[13px]">{i.text}</h3>
                     <div className="flex flex-row items-center gap-3">
-                      <p className="msmm:text-[13px]">
-                        Rs.{i.DiscountProce}.00
-                      </p>
+                      <p className="msmm:text-[13px]">Rs.{i.value}.00</p>
                       <p className="line-through msmm:text-[12px] text-[13px] text-red-600">
                         Rs.{i.ActualPrice}.00
                       </p>

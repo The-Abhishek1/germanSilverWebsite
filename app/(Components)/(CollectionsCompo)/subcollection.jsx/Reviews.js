@@ -19,7 +19,7 @@ export const Reviews = [
     img: i1,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 5,
+    stars: "five",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const Reviews = [
     img: i2,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 4,
+    stars: "four",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const Reviews = [
     img: i6,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 4,
+    stars: "four",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const Reviews = [
     img: i4,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 5,
+    stars: "five",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export const Reviews = [
     img: i5,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 4,
+    stars: "four",
   },
   {
     id: 6,
@@ -59,6 +59,54 @@ export const Reviews = [
     img: i7,
     description:
       "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
-    stars: 3,
+    stars: "three",
+  },
+  {
+    id: 7,
+    name: "Idiot",
+    img: i1,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "five",
+  },
+  {
+    id: 8,
+    name: "Dabba",
+    img: i2,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "two",
+  },
+  {
+    id: 9,
+    name: "Dale Steyn",
+    img: i6,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "one",
+  },
+  {
+    id: 10,
+    name: "Miller",
+    img: i4,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "three",
+  },
+  {
+    id: 11,
+    name: "Bravo",
+    img: i5,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "two",
+  },
+  {
+    id: 12,
+    name: "Karthi",
+    img: i7,
+    description:
+      "Our selection of affordable German silver items ensures you can give a thoughtful and elegant gift without breaking the bank.",
+    stars: "one",
   },
 ];
