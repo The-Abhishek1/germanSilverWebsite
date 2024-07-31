@@ -3,6 +3,7 @@ import React from "react";
 import { items } from "./ItemInfo";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Details from "./Details";
 
 //main function
 function All() {
@@ -23,6 +24,7 @@ function All() {
                   <p className="text-center msmm:text-[13px] text-indigo-900">
                     {item.about}
                   </p>
+                  <Details />
                   <button className="bg-indigo-950 text-white py-2">
                     Buy Now
                   </button>
@@ -35,6 +37,7 @@ function All() {
                     {item.text}
                   </h1>
                   <p className="text-center text-indigo-900">{item.about}</p>
+                  <Details />
                   <button className="bg-indigo-950 text-white py-2">
                     Buy Now
                   </button>

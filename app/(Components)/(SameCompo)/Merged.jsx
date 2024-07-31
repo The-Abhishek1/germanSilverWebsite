@@ -5,6 +5,7 @@ import FestivalImage from "./FestivalImage";
 import Collection from "./Collection";
 import Footer from "./Footer";
 import WelcomePage from "./WelcomePage";
+import ProgressSlider from "./Feedback";
 function Merged() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Merged() {
       <Quality />
       <FestivalImage />
       <Collection />
+      <ProgressSlider />
       <Footer />
     </div>
   );
