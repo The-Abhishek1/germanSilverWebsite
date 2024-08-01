@@ -129,6 +129,9 @@ function Header() {
             <AddShoppingCartIcon
               sx={{ fontSize: 20 }}
               className="smmm:text-[25px]"
+              onClick={() => {
+                router.push("/cart");
+              }}
             />
           </div>
           <div
