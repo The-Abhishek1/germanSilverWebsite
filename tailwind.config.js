@@ -18,6 +18,7 @@ module.exports = {
       mmd: { max: "767px" },
 
       msm: { max: "639px" },
+      ms: { max: "580px" },
       msmm: { max: "500px" },
       msmmm: { max: "450px" },
 
@@ -25,7 +26,7 @@ module.exports = {
 
       smmm: { min: "450px" },
       smm: { min: "500px" },
-
+      mss: { min: "581px" },
       sm: { min: "640px" },
 
       md: { min: "768px" },
