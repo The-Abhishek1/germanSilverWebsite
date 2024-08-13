@@ -3,7 +3,7 @@ import { orders } from "./order";
 function Orders() {
   return (
     <div className="p-4 bg-slate-50 text-[14px] ms:text-[10px] font-serif flex flex-col gap-4">
-      <div className="flex rounded-full border-[1px] bg-white py-2 items-center justify-center gap-5">
+      <div className="flex font-bold rounded-full border-[1px] bg-white py-2 items-center justify-center gap-5">
         <div className="cursor-pointer">All Orders</div>
         <div className="cursor-pointer">Drafts</div>
         <div className="cursor-pointer">Shipping</div>
