@@ -3,7 +3,7 @@ import React from "react";
 function page() {
   return (
     <div className="font-serif pb-32 p-10 flex flex-col items-center gap-4">
-      <h1 className="font-bold text-[22px]">Hii, Good Morning😶‍🌫️</h1>
+      <h1 className="font-bold text-[22px]">Hii, Good Morning Coffee😶‍🌫️</h1>
       <div className="flex gap-2">
         <p className="text-red-600 inline-block font-bold">Caution:</p>
         <p>Please read it carefully</p>
