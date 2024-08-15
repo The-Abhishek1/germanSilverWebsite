@@ -45,8 +45,10 @@ function page() {
         <p>
           You are the one running in my mind 24 x 7. I still can't forget the
           days, I sat next to you and the day I heard your voice on call for 5s
-          on September 15th last year. There are only two things I learnt from
-          love
+          on September 15th last year. I express what I feel right now, but I
+          never want to give up at any cost, I don't know where it's gonna take
+          me but promise I'll never gonna stop loving you. There are two things
+          I learnt from love
         </p>
         <div>
           <p>1. You may gonna lose yourself, while trying to win someone.</p>
