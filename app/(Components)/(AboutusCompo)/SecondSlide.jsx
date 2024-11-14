@@ -5,7 +5,7 @@ import projects from "@public/project-management.png";
 import happy from "@public/testimonials.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
-import photo from "@public/img4.jpg";
+import photo from "@public/a1.jpg";
 //Main Function
 export default function SecondSlide() {
   return (
