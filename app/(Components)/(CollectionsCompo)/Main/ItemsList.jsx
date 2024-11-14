@@ -1,15 +1,19 @@
 import React from "react";
 import { RiArrowDropRightFill } from "react-icons/ri";
 import Image from "next/image";
-import i1 from "@public/img1.webp";
-import i2 from "@public/img2.jpg";
-import i3 from "@public/img3.jpg";
-import i4 from "@public/img4.jpg";
-import i5 from "@public/img5.jpg";
-import i6 from "@public/img6.jpg";
-import i8 from "@public/img8.jpg";
-import i10 from "@public/img10.webp";
-import i11 from "@public/img11.webp";
+import i1 from "@public/dustbin1.png";
+import i2 from "@public/dustbin1.png";
+import i3 from "@public/dustbin1.png";
+import i4 from "@public/dustbin1.png";
+import i5 from "@public/dustbin1.png";
+import i6 from "@public/dustbin1.png";
+import i7 from "@public/dustbin1.png";
+import i8 from "@public/dustbin1.png";
+import i9 from "@public/dustbin1.png";
+import i10 from "@public/dustbin1.png";
+import i11 from "@public/dustbin1.png";
+import i12 from "@public/dustbin1.png";
+import i13 from "@public/dustbin1.png";
 import discount from "@public/super-sale.png";
 import discount1 from "@public/super-sale2.png";
 import Items from "./Items";
@@ -46,7 +50,7 @@ function ItemsList() {
               alt="Image"
             />
             <h3 className="font-bold text-[13px] msmm:text-[11px]">
-              Home Decor
+             Housekeeping Accessories
             </h3>
           </div>
           <div className="flex flex-col items-center">
@@ -56,17 +60,10 @@ function ItemsList() {
               alt="Image"
             />
             <h3 className="font-bold text-[13px] msmm:text-[11px]">
-              Brass Gifts
+              Office Stationery
             </h3>
           </div>
-          <div className="flex flex-col items-center">
-            <Image
-              src={i3}
-              className="w-[60px]  h-[60px]  rounded-full msmm:w-[40px] msmm:h-[40px]"
-              alt="Image"
-            />
-            <h3 className="font-bold text-[13px] msmm:text-[11px]">Garlands</h3>
-          </div>
+      
           <div className="flex flex-col items-center">
             <Image
               src={i4}
@@ -74,7 +71,7 @@ function ItemsList() {
               alt="Image"
             />
             <h3 className="font-bold text-[13px] msmm:text-[11px]">
-              Pooja Utilities
+              Cleaning Accessories
             </h3>
           </div>
           <div className="flex flex-col items-center">
@@ -83,18 +80,9 @@ function ItemsList() {
               className="w-[60px]  h-[60px]  rounded-full msmm:w-[40px] msmm:h-[40px]"
               alt="Image"
             />
-            <h3 className="font-bold text-[13px] msmm:text-[11px]">Combos</h3>
+            <h3 className="font-bold text-[13px] msmm:text-[11px]">Pantry</h3>
           </div>
-          <div className="flex flex-col items-center">
-            <Image
-              src={i4}
-              className="w-[60px]  h-[60px]  rounded-full msmm:w-[40px] msmm:h-[40px]"
-              alt="Image"
-            />
-            <h3 className="font-bold text-[13px] msmm:text-[11px]">
-              Silver Frames
-            </h3>
-          </div>
+      
         </div>
       </div>
       <div>

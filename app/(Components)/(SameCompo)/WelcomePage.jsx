@@ -16,8 +16,8 @@ export default function WelcomePage() {
             Welcome
           </h2>
           <p className="text-center mlg:pr-4 mlg:text-[13px]">
-            "✨ Your one-stop destination for exquisite German silver
-            collections, perfect for weddings, gifts, and festive celebrations
+            "✨ Your one-stop destination for exquisite Housekeeping Items & Accessories, 
+            Office Stationery, Cleaning Accessories, Pantry
             🎁🎉"
           </p>
           <q className="italic">#InnovationUnleashed</q>
@@ -27,7 +27,7 @@ export default function WelcomePage() {
             }}
             className="bg-indigo-950 text-white text-[14px] py-2 px-10"
           >
-            Check out Blogs
+            Check out Items
           </button>
         </div>
         <div className="flex">

@@ -1,18 +1,9 @@
 "use client";
 import React from "react";
-import i1 from "@public/img1.webp";
-import i2 from "@public/img2.jpg";
-import i3 from "@public/img3.jpg";
-import i4 from "@public/img4.jpg";
-import i5 from "@public/img5.jpg";
-import i6 from "@public/img6.jpg";
-import i7 from "@public/img7.webp";
-import i8 from "@public/img8.jpg";
-import i9 from "@public/img9.webp";
-import i10 from "@public/img10.webp";
-import i11 from "@public/img11.webp";
-import i12 from "@public/img12.png";
-import i13 from "@public/img13.jpg";
+import i1 from "@public/office-stationery.jpg";
+import i2 from "@public/all.png";
+import i3 from "@public/Housekeeping.png";
+import i4 from "@public/pantry.jpg";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 //Main Function
@@ -24,32 +15,32 @@ function Collection() {
       <div className="grid grid-flow-col grid-cols-6 gap-3  mex:grid-flow-row mex:grid-cols-2">
         <div
           onClick={() => {
-            router.push("/collections/gifts-under-200");
+            router.push("/collections/office_stationery");
           }}
           className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2"
         >
           <Image
-            src={i7}
-            alt="gifts under 200"
+            src={i1}
+            alt="Office Stationery"
             className="h-[300px] msmm:h-[150px] transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px] msmm:text-[15px] p-4">
-            Gifts Under 200
+          <h3 className="absolute left-5 bottom-5 rounded-sm  font-bold  xl:text-[18px] text-black msmm:text-[15px] p-2">
+            Office Stationery
           </h3>
         </div>
         <div
           onClick={() => {
-            router.push("/collections/gifts-under-500");
+            router.push("/collections/housekeeping_items");
           }}
           className="relative flex items-end justify-start border-[1px] p-2 smex:col-span-2"
         >
           <Image
             src={i2}
-            alt="gifts under 500"
+            alt="Housekeeping items & Accessories"
             className="h-[300px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Gifts Under 500
+          <h3 className="absolute left-5 bottom-5 rounded-sm font-bold xl:text-[18px] text-black  msmm:text-[15px]  p-2">
+            Housekeeping items & Accessories
           </h3>
         </div>
 
@@ -64,7 +55,7 @@ function Collection() {
             alt="All Products"
             className="msmm:h-[200px] h-[300px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
+          <h3 className="absolute left-5 bottom-5 rounded-sm font-bold xl:text-[18px] text-black  msmm:text-[15px]  p-2">
             All Products
           </h3>
         </div>
@@ -74,189 +65,32 @@ function Collection() {
       <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
         <div
           onClick={() => {
-            router.push("/collections/999-silver-frames");
+            router.push("/collections/cleaning_items");
           }}
           className="relative flex items-end justify-start border-[1px] p-2"
         >
           <Image
             src={i4}
-            alt="999 Silver Frames"
+            alt="Cleaning Items"
             className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            999 Silver Frames
+          <h3 className="absolute left-5 bottom-5 rounded-sm font-bold xl:text-[18px] text-black  msmm:text-[15px]  p-2">
+            Cleaning Items
           </h3>
         </div>
         <div
           onClick={() => {
-            router.push("/collections/pooja-utilities");
+            router.push("/collections/pantry");
           }}
           className="relative flex items-end justify-start border-[1px] p-2"
         >
           <Image
-            src={i5}
-            alt="Pooja Utilities"
+            src={i4}
+            alt="Pantry"
             className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
           />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Pooja Utilities
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/home-decor");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i6}
-            alt="Home Decor"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Home Decor
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/german-silver-gifts");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i7}
-            alt="German Silver Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            German Silver Gifts
-          </h3>
-        </div>
-      </div>
-
-      {/* //Third Row */}
-      <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
-        <div
-          onClick={() => {
-            router.push("/collections/return-gifts");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i8}
-            alt="Rerturn Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
-            Return Gifts
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/brass-gifts");
-          }}
-          className="relative flex items-end justify-start border-[1px]  msmm:text-[15px]  p-2"
-        >
-          <Image
-            src={i9}
-            alt="Brass Gifts"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Brass Gifts
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/wedding-trays");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i1}
-            alt="Wedding Trays"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Wedding Trays
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/gift-sets");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i2}
-            alt="Gift Sets"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Gift Sets
-          </h3>
-        </div>
-      </div>
-      {/* //Fourth Row */}
-      <div className="grid grid-flow-col gap-3 mex:grid-flow-row mex:grid-cols-2">
-        <div
-          onClick={() => {
-            router.push("/collections/combos");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i10}
-            alt="Combos"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
-            Combos
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/new-arrivals-today");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i11}
-            alt="New Arrivals Today"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold  xl:text-[20px]  msmm:text-[15px]  p-4">
-            New Arrivals Today
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/diwali-collection");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i12}
-            alt="Diwali Collection"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold xl:text-[20px]  msmm:text-[15px]  p-4">
-            Diwali Collection
-          </h3>
-        </div>
-        <div
-          onClick={() => {
-            router.push("/collections/garlands");
-          }}
-          className="relative flex items-end justify-start border-[1px] p-2"
-        >
-          <Image
-            src={i13}
-            alt="Garlands"
-            className="h-[200px] msmm:h-[150px]  transition ease-in-out delay-100 cursor-pointer hover:-translate-y-1 hover:scale-95 duration-500"
-          />
-          <h3 className="absolute font-bold text-white xl:text-[20px]  msmm:text-[15px]  p-4">
-            Garlands
+          <h3 className="absolute left-5 bottom-5 rounded-sm font-bold xl:text-[18px] text-black  msmm:text-[15px]  p-2">
+            Pantry
           </h3>
         </div>
       </div>

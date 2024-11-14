@@ -25,20 +25,21 @@ export default function SecondSlide() {
           <h1 className="text-[18px]">ABOUT US</h1>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="font-bold text-[30px] mxl:text-[20px] text-center ">
+          <div className=" font-bold text-[30px] mxl:text-[20px] text-center ">
             We Are Increasing Business Success With
-            <p className="text-blue-600 inline"> German Silver</p>
+            <p className="text-blue-600 inline pl-2">Manjunath Enterprises</p>
           </div>
           <p className="mxl:text-[13px] text-center">
-            Welcome to AblazeNova, your number one source for all gifting things
-            like german silver articles, pooja samagri, terracot objects, hand
-            made idols and many more give away stuff. We're dedicated to
-            providing you the very best of products.
+          Manjunath Enterprises (ME) was established in the year 2004
+We bring you wide range of specialized environment friendly products.
+At ME, We believe that time is money, we save your time & money by
+providing, Fast service & best quality.
           </p>
           <p className="mxl:text-[13px] text-center">
-            Most of our products are made of german silver which is made of
-            mixed precious metals with silver layered gives you exact feel of
-            pure silver. our products does not have resale value.
+          As we work 24/7 & 365days,
+ you do not have to go for different vendor, because ME brings all
+your office needs in one roof. 
+
           </p>
         </div>
         <div className="flex  mlg:ml-5 mmd:flex-col justify-center gap-10 flex-row mmd:gap-3">
@@ -65,7 +66,7 @@ export default function SecondSlide() {
             </div>
             <div>
               <p className="text-[13px]">Call Us On:</p>
-              <h1 className="font-bold ">91+ 6366652685</h1>
+              <h1 className="font-bold ">91+ 8618850133</h1>
             </div>
           </div>
         </div>

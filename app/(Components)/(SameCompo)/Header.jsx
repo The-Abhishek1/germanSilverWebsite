@@ -29,8 +29,8 @@ function Header() {
             alt="Logo Image"
           />
           <div className="flex gap-1 font-bold">
-            <h1 className="text-red-600">Ablaze</h1>
-            <p>Nova</p>
+            <h1 className="text-red-600">Manjunath</h1>
+            <p>Enterprises</p>
           </div>
         </div>
         <div className="mxl:hidden text-indigo-900 flex flex-row items-center gap-5">
@@ -43,30 +43,16 @@ function Header() {
           >
             Collections
           </Link>
-          <Link
-            href={"/track-order"}
-            className="cursor-pointer text-[13px] font-bold"
-          >
-            Track Order
-          </Link>
+        
           <Link
             href={"/happy-customers"}
             className="cursor-pointer text-[13px] font-bold"
           >
             Happy Customer
           </Link>
-          <div className="flex items-center cursor-pointer">
             <Link href={"/about-us"} className="text-[13px] font-bold">
               About Us
             </Link>
-            <ArrowDropDownIcon />
-          </div>
-          <div className="flex items-center cursor-pointer">
-            <Link href={"/our-policies"} className="text-[13px] font-bold">
-              Our Policies
-            </Link>
-            <ArrowDropDownIcon />
-          </div>
           <Link
             href={"/customer-help-center"}
             className="cursor-pointer text-[13px] font-bold"
@@ -75,42 +61,7 @@ function Header() {
           </Link>
         </div>
         <div className="flex flex-row smmm:gap-4 cursor-pointer msmmm:gap-[5px] gap-3  items-center">
-          <Image
-            unoptimized // for image caching, else error
-            src={profilePic}
-            alt="Profile"
-            className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
-          />
-          {/* <div>
-            {auth?.currentUser?.photoURL == null ? (
-              <Image
-                unoptimized // for image caching, else error
-                src={profilePic}
-                alt="Profile"
-                className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
-              />
-            ) : (
-              <img
-                src={auth?.currentUser?.photoURL}
-                alt="Profile"
-                className="rounded-[30px] cursor-pointer h-[30px] w-[30px]"
-              />
-            )}
-            <div>
-              {auth?.currentUser == null ? (
-                <div
-                  onClick={() => {
-                    router.push("/signup");
-                  }}
-                >
-                  <PersonAddAlt1Icon
-                    sx={{ fontSize: 20 }}
-                    className="smmm:text-[27px] msmmm:text-[25px]"
-                  />
-                </div>
-              ) : null}
-            </div>
-          </div> */}
+         {/* /Contact Image */}
 
           <div className="relative flex items-center">
             <input
@@ -118,20 +69,11 @@ function Header() {
               name="search"
               id=""
               placeholder="Search"
-              className="msm:w-[80px] text-[12px] pr-8 xxl:w-[100px] outline-none bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
+              className="text-[12px] pr-8 w-[150px] outline-none bg-slate-50 border-orange-400 border-[1px] p-[5px] px-4 rounded-full"
             />
             <SearchIcon
               sx={{ fontSize: 20, color: "gray" }}
               className="msmmm:text-[20px] absolute right-[5px]"
-            />
-          </div>
-          <div>
-            <AddShoppingCartIcon
-              sx={{ fontSize: 20 }}
-              className="smmm:text-[25px]"
-              onClick={() => {
-                router.push("/cart");
-              }}
             />
           </div>
           <div
@@ -154,12 +96,7 @@ function Header() {
               >
                 Collections
               </Link>
-              <Link
-                href="/track-order"
-                className=" p-2 inline border-b-2 border-black"
-              >
-                Track Order
-              </Link>
+            
               <Link
                 href="/happy-customers"
                 className=" p-2 inline border-b-2 border-black"
@@ -172,12 +109,7 @@ function Header() {
               >
                 About us
               </Link>
-              <Link
-                href="/our-policies"
-                className=" p-2 inline border-b-2 border-black"
-              >
-                Our Policies
-              </Link>
+            
               <Link href="/customer-help-center" className=" p-2 inline  ">
                 Customer Help Center
               </Link>

@@ -1,16 +1,16 @@
-import i1 from "@public/img1.webp";
-import i2 from "@public/img2.jpg";
-import i3 from "@public/img3.jpg";
-import i4 from "@public/img4.jpg";
-import i5 from "@public/img5.jpg";
-import i6 from "@public/img6.jpg";
-import i7 from "@public/img7.webp";
-import i8 from "@public/img8.jpg";
-import i9 from "@public/img9.webp";
-import i10 from "@public/img10.webp";
-import i11 from "@public/img11.webp";
-import i12 from "@public/img12.png";
-import i13 from "@public/img13.jpg";
+import i1 from "@public/dustbin1.png";
+import i2 from "@public/dustbin1.png";
+import i3 from "@public/dustbin1.png";
+import i4 from "@public/dustbin1.png";
+import i5 from "@public/dustbin1.png";
+import i6 from "@public/dustbin1.png";
+import i7 from "@public/dustbin1.png";
+import i8 from "@public/dustbin1.png";
+import i9 from "@public/dustbin1.png";
+import i10 from "@public/dustbin1.png";
+import i11 from "@public/dustbin1.png";
+import i12 from "@public/dustbin1.png";
+import i13 from "@public/dustbin1.png";
 export const item = [
   {
     id: 1,

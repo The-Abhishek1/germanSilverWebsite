@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Girl1 from "@public/img1.webp";
-import Girl2 from "@public/img11.webp";
-import Boy1 from "@public/img11.webp";
-import Boy2 from "@public/img12.png";
+import Girl1 from "@public/h3.jpg";
+import Girl2 from "@public/h4.jpg";
+import Boy1 from "@public/h1.jpg";
+import Boy2 from "@public/h2.jpg";
 
 export const items = [
   {

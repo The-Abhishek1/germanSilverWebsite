@@ -13,7 +13,7 @@ export default function ContactLinks() {
         <div>
           <h4 className="text-[15px] mlg:text-[13px]">Quick Call Us:</h4>
           <h2 className="text-[17px] font-bold mlg:text-[14px]">
-            91+ 6366652585
+            91+ 8618850133
           </h2>
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function ContactLinks() {
         <div>
           <h4 className="text-[15px] mlg:text-[13px]">Mail Us On:</h4>
           <h2 className="text-[17px] font-bold mlg:text-[14px]">
-            idiot63666@gmail.com
+            manjunathent55@gmail.com
           </h2>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function ContactLinks() {
         <div>
           <h4 className="text-[15px] mlg:text-[13px]">Visit Location:</h4>
           <h2 className="text-[17px] font-bold mlg:text-[14px]">
-            17 NJ-12, JP Nagar
+          #364, Rajendra Nagar, Koramangala,bangalore - 560047
           </h2>
         </div>
       </div>

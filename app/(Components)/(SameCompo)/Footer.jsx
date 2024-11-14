@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="flex flex-row justify-center items-center">
         <Image src={logo} alt="logo" className="h-[40px] w-[40px] rounded-md" />
         <h1 className="text-[30px] flex gap-1 font-bold mxl:text-[20px]">
-          <p className="text-red-600">Ablaze</p> Nova
+          <p className="text-red-600">Manjunath</p> Enterprises
         </h1>
       </div>
       <div className="flex gap-10 md:gap-4 msm:grid-cols-1 mmd:flex-col mmd:grid mmd:grid-cols-2 flex-row flex-wrap items-center justify-around">
@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[15px] mlg:text-[13px]">Quick Call Us:</h4>
             <h2 className="text-[17px] font-bold mlg:text-[14px]">
-              91+ 6366652585
+              91+ 8618850133
             </h2>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[15px] mlg:text-[13px]">Mail Us On:</h4>
             <h2 className="text-[17px] font-bold mlg:text-[14px]">
-              idiot63666@gmail.com
+              manjunathent55@gmail.com
             </h2>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[15px] mlg:text-[13px]">Visit Location:</h4>
             <h2 className="text-[17px] font-bold mlg:text-[14px]">
-              17 NJ-12, JP Nagar
+            #364, Rajendra Nagar, Koramangala,bangalore - 560047
             </h2>
           </div>
         </div>
@@ -73,9 +73,12 @@ export default function Footer() {
             About Company
           </h1>
           <p className="text-center text-[15px] mxl:text-[13px]">
-            "✨ Your one-stop destination for exquisite German silver
-            collections, perfect for weddings, gifts, and festive celebrations
-            🎁🎉"
+            "Manjunath Enterprises (ME) was established in the year 2004
+We bring you wide range of specialized environment friendly products.
+At ME, We believe that time is money, we save your time & money by
+providing, Fast service & best quality. As we work 24/7 & 365days,
+ you do not have to go for different vendor, because ME brings all
+your office needs in one roof."
           </p>
           <div className="flex flex-row bg-white text-indigo-600 items-center justify-center gap-5">
             <div className="p-2 rounded-full cursor-pointer shadow-md shadow-slate-400">
@@ -122,12 +125,7 @@ export default function Footer() {
                 Collections
               </Link>
             </div>
-            <div className="flex flex-row items-center  gap-2">
-              <FaAngleRight size={20} />
-              <Link href="/track-order" className="mlg:text-[13px]">
-                Track Order
-              </Link>
-            </div>
+         
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link href="/happy-customers" className="mlg:text-[13px]">
@@ -146,12 +144,6 @@ export default function Footer() {
                 Contact Us
               </Link>
             </div>
-            <div className="flex flex-row items-center  gap-2">
-              <FaAngleRight size={20} />
-              <Link href="/blogs" className="mlg:text-[13px]">
-                Blogs
-              </Link>
-            </div>
           </div>
         </div>
         <div className="flex flex-col gap-3 items-center">
@@ -162,46 +154,33 @@ export default function Footer() {
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="/collections/wedding-trays"
+                href="/collections/housekeeping_items"
                 className="mlg:text-[13px]"
               >
-                Wedding Trays
+                Housekeeping Items
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="/collections/brass-gifts" className="mlg:text-[13px]">
-                Brass Gifts
+              <Link href="/collections/office_stationer" className="mlg:text-[13px]">
+              Office Stationer
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
               <Link
-                href="/collections/pooja-utilities"
+                href="/collections/cleaning_accessor"
                 className="mlg:text-[13px]"
               >
-                Pooja Utilities
+                
+ Cleaning Accessor
               </Link>
             </div>
             <div className="flex flex-row items-center  gap-2">
               <FaAngleRight size={20} />
-              <Link href="/collections/garlands" className="mlg:text-[13px]">
-                Garlands
-              </Link>
-            </div>
-            <div className="flex flex-row items-center  gap-2">
-              <FaAngleRight size={20} />
-              <Link href="/collections/combos" className="mlg:text-[13px]">
-                Combos
-              </Link>
-            </div>
-            <div className="flex flex-row items-center  gap-2">
-              <FaAngleRight size={20} />
-              <Link
-                href="/collections/diwali-collection"
-                className="mlg:text-[13px] cursor-pointer"
-              >
-                Diwali Collection
+              <Link href="/collections/pantry" className="mlg:text-[13px]">
+                
+ Pantry
               </Link>
             </div>
           </div>
