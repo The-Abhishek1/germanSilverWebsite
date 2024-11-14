@@ -2,7 +2,7 @@
 import React from "react";
 import i1 from "@public/office-stationery.jpg";
 import i2 from "@public/all.png";
-import i3 from "@public/Housekeeping.png";
+import i3 from "@public/all.png";
 import i4 from "@public/pantry.jpg";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
